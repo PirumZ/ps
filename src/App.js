@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Movie from './components/Movie';
+import "bootstrap/dist/css/bootstrap.min.css"
+import Container from 'react-bootstrap/Container'; 
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
+/*App function depicting the three movies to the screen utilizing BS
+for responsiveness, along with some imports from BS.*/
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    <Container>
+        <h2 className='head'>List of Movies</h2>
+    <Row>
+      <Col lg md={8}><Movie /></Col>
+      <Col lg md={8}><Movie /></Col>
+      <Col lg md={8}><Movie /></Col>
+    </Row>
+  </Container>
+);
 }
 
 export default App;
