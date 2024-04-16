@@ -1,5 +1,5 @@
 import React from "react";
-import './Movie.css';
+import '../Movie.css';
 
 
 
@@ -8,7 +8,7 @@ export default function Movie(props) {
   return (
     <div className="movie">
       <div className="movie-title"><b>Movie Title: {props.title}</b></div>
-      <div className="director">Director: <b>{props.director}</b></div>
+      <div className="director"><b>Director: {props.director}</b></div>
       <div className="stars">Stars: {props.stars}</div>
     </div>
   )

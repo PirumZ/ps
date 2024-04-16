@@ -1,5 +1,5 @@
 import './App.css';
-import Movie from './components/Movie';
+import MovieList from './components/MovieList';
 import "bootstrap/dist/css/bootstrap.min.css"
 import Container from 'react-bootstrap/Container'; 
 import Row from 'react-bootstrap/Row';
@@ -12,11 +12,9 @@ function App() {
 
     <Container>
         <h2 className='head'>List of Movies</h2>
-    <Row>
-      <Col lg md={8}><Movie /></Col>
-      <Col lg md={8}><Movie /></Col>
-      <Col lg md={8}><Movie /></Col>
-    </Row>
+    
+      <MovieList />
+    
   </Container>
 );
 }
