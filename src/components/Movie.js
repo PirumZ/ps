@@ -10,6 +10,7 @@ export default function Movie(props) {
       <div className="movie-title"><b>Movie Title: {props.title}</b></div>
       <div className="director"><b>Director: {props.director}</b></div>
       <div className="stars">Stars: {props.stars}</div>
+      <button>Kill Switch</button>
     </div>
   )
 }

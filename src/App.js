@@ -1,7 +1,7 @@
-import './App.css';
-import MovieList from './components/MovieList';
-import "bootstrap/dist/css/bootstrap.min.css"
-import Container from 'react-bootstrap/Container'; 
+import "./App.css";
+import MovieList from "./components/MovieList";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -9,14 +9,14 @@ import Col from 'react-bootstrap/Col';
 for responsiveness, along with some imports from BS.*/
 function App() {
   return (
-
     <Container>
-        <h2 className='head'>List of Movies</h2>
-    
+      <h2 className="head">List of Movies</h2>
+
+      <Row>
       <MovieList />
-    
-  </Container>
-);
+      </Row>
+    </Container>
+  );
 }
 
 export default App;
