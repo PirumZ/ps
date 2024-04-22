@@ -3,31 +3,31 @@
 "title":"The Batman",
 "director": "Matt Reeves",
 "stars": "Robert Pattinson, Zoe Kravitz",
-"id": "0"
+"id": 0
 },
 {
 "title":"How to Train Your Dragon",
 "director": "Dean DeBlois and Chris Sanders",
 "stars": "Jay Baruchel, Gerard Butler",
-"id": "1"
+"id": 1
 
 },
 {
 "title":"Turning Red",
 "director": "Domee Shi",
 "stars": "Roselie Chiang, Sandra Oh",
-"id": "2"
+"id": 2
 },
 {
 "title":"Pulp Fiction",
 "director": "Quentin Taratino",
 "stars": "John Travolta, Uma Therman",
-"id": "3"
+"id": 3
 },
 {
 "title":"Spider Man: No Way Home",
 "director": "Jon Watts",
 "stars": "Tom Holland, Zendaya",
-"id": "4"
+"id": 4
 }
 ]
